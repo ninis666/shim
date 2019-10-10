@@ -1,0 +1,2 @@
+- Décollage de l'ancien carrelage
+- Refaire un nouveau carrelage au motif sélectionné par le client

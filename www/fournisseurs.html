@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SHIM Entreprise</title>
+<link rel="shortcut icon" href="images/logo_shim.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if IE 6]><script type="text/javascript" src="js/unitpngfix.js"></script><![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+function hideall() {
+	$("#tab").hide();
+	$("#tab1").hide();
+	$("#tab2").hide();
+	$("#tab3").hide();
+	$("#tab4").hide();			
+}
+$(document).ready(function(){
+
+$("#icon1").mouseover(function () {
+hideall();
+$("#tab1").css("display","block");     
+});
+
+$("#icon2").mouseover(function () {
+hideall();
+$("#tab2").css("display","block");     
+});
+
+$("#icon3").mouseover(function () {
+hideall();
+$("#tab3").css("display","block");     
+});  
+
+hideall();
+$("#tab").show();       
+
+});
+</script>
+</head>
+
+<body>
+  <div class="wrap">
+	<div class="header">
+      <div class="logo"><a href="index.html"><img border="0" alt="" src="images/logo_shim_full.png" style="width: 252px; height: 80px; padding-bottom: 0px; padding-top: 0px;"></a></div>
+		<div id="menu">
+		  <ul>
+			<li><a href="index.html">Contact</a></li>
+			<li><a href="realisations.html">Réalisations</a></li>
+			<li><a href="commentaires.html">Commentaires</a></li>
+			<li class="selected"><a href="fournisseurs.html">Fournisseurs</a></li>
+		  </ul>
+		</div>
+	  </div>   <!--End of header-->
+
+	  <div class="home_center_content">
+		<div class="home_center_content">
+
+		  <div class="box1" id="tab">
+			<div class="center_text">
+			  <div class="big_title"><span>SHIM</span></div>
+			  <p>SHIM Entreprise vous offre un large éventail de services pour répondre à vos besoins de dépannage ou de rénovation. Spécialisés en plomberie et en électricité générale, nous assurons une intervention rapide et de qualité sur toute l'Île de France. Notre professionnalisme vous permet de bénéficier des solutions pratiques et esthétiques.</p>		  
+			</div>
+			<div class="right_img"><img alt="" src="images/logo_shim.png" style="width: 300px;"></div>
+			</div>
+			
+			<div class="box1" id="tab1">
+			  <div class="center_text">
+				<div class="big_title"><span>SHIM</span></div>
+				<p>SHIM Entreprise vous offre un large éventail de services pour répondre à vos besoins de dépannage ou de rénovation. Spécialisés en plomberie et en électricité générale, nous assurons une intervention rapide et de qualité sur toute l'Île de France. Notre professionnalisme vous permet de bénéficier des solutions pratiques et esthétiques.</p>		  
+			  </div>
+			  <div class="right_img"><img alt="" src="images/logo_shim.png" style="width: 300px;"></div>
+			  </div>
+			  
+      <div class="box1" id="tab2">
+        <div class="center_text">
+          <div class="big_title"><span>Plomberie</span></div>
+		  <p>Notre expertise en plomberie s'étend de l'installation de sanitaire à la rénovation des pièces d'eau. Périmètre d'intervention Plomberie:
+		  <ul>
+			<li> Baignoire </li>
+			<li> Cabine de douche </li>
+			<li> Évier/ lavabo </li>
+			<li> Robinetteries </li>
+			<li> Sanitaire </li>
+			<li> Rénovation Salle d'eau </li>
+		  </ul>
+		  <p>Vous trouverez ici des exemples de réalisations.</p>
+		</div>
+        <div class="right_img"><img src="images/plomberie_pic.jpg" alt="" /></div>
+      </div>
+		
+	    <div class="box1" id="tab3">
+        <div class="center_text">
+          <div class="big_title"><span>Électricité</span></div>
+		  <p>Afin d'assurer votre sécurité au sein de votre logement, SHIM entreprise réalise un diagnostique précis de votre installation électrique. Périmètre d'intervention électricité :
+		  <ul>
+			<li> Mise en conformité </li>
+			<li> Rénovation de tableau électrique </li>
+			<li> Réparation panne électrique </li>
+		  </ul>
+		  <p>Vous trouverez ici des exemples de réalisations.</p>
+        </div>
+        <div class="right_img"><img src="images/electricite_pic.jpg" alt="" /></div>
+      </div>
+
+	  
+      <ul class="center_button_icons tabset">
+        <li id="icon1"> <a href="#tab1" class="tab"> <img src="images/icon_shim.png" border="0" alt="" /> </a> </li>
+        <li id="icon2"> <a href="#tab2" class="tab"> <img src="images/icon_plombier.png" border="0"  alt=""/> </a> </li>
+        <li id="icon3"> <a href="#tab3" class="tab"> <img src="images/icon_electricite.png" border="0" alt="" /> </a> </li>
+        <li> <a href="#tab" class="tab active"></a> </li>
+      </ul>
+    </div>
+  </div>
+  <!--End of home_center_content-->
+  <div class="wide_content">
+    <!--div class="left_content"-->
+
+    <a><h1>Nos Fournisseurs</h1></a>
+    <div class="clear"></div>
+	<!--/div-->    <!--End of left_content-->
+	<a title="Annuaire pour le Référencement Google" href="http://annuaire.yagoort.org">Annuaire Webmaster</a>
+  </div>   <!--End of main_content-->
+<!--End of wrap-->
+
+<!--End of footer-->
+</body>
+</html>

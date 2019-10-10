@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SHIM Entreprise</title>
+<link rel="shortcut icon" href="images/logo_shim.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if IE 6]><script type="text/javascript" src="js/unitpngfix.js"></script><![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<!-- customize labels of htmlcommentbox.com -->
+<script>
+  // This code goes ABOVE the main HTML Comment Box code!
+  // replace the text in the single quotes below to customize labels.
+  hcb_user = {
+  //L10N
+  comments_header : ' ',
+  name_label : 'Votre nom',
+  content_label: 'Votre texte',
+  submit : 'Valider',
+  logout_link : '',
+  admin_link : '',
+  no_comments_msg: 'Personne n\'a encore laissé de commentaire. Soyez le premier !',
+  add:'Ajouter',
+  again: 'Poster un autre commentaire',
+  rss:'',
+  said:':',
+  prev_page:'<img src="//www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
+  next_page:'<img src="//www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
+  showing:'Showing',
+  to:'A:',
+  website_label:'website (optional)',
+  email_label:'email',
+  anonymous:'Anonymous',
+  mod_label:'(mod)',
+  subscribe:'Notifiez moi des réponses !',
+  are_you_sure: 'Signaler ce commantaire comme abusif ?',
+  
+  reply:'<img src="//www.htmlcommentbox.com/static/images/reply.png"/> répondre',
+  flag:'<img src="//www.htmlcommentbox.com/static/images/flag.png"/> signaler',
+  like:'<img src="//www.htmlcommentbox.com/static/images/like.png"/> j\'aime',
+  
+  //dates
+  days_ago:'jours',
+  hours_ago:'heures',
+  minutes_ago:'minutes',
+  within_the_last_minute:'Moins d\'une minute',
+
+  msg_thankyou:'Merci !',
+  msg_approval:'(Ce commentaire doit être approuvé)',
+  msg_approval_required:'Merci! Votre commantaire sera bientôt publié.',
+  
+  err_bad_html:'Code HTML non reconnu !',
+  err_bad_email:'Entrez une adresse email valide !',
+  err_too_frequent:'Attendez quelques secondes avant d\'ajouter un nouveau commantaire !',
+  err_comment_empty:'Impossible de poster un commantaire vide !',
+  err_denied:'Your comment was not accepted.',
+
+  //SETTINGS
+  MAX_CHARS: 2048,
+  PAGE:'', // ID of the webpage to show comments for. defaults to the webpage the user is currently visiting.
+  RELATIVE_DATES:true // show dates in the form "X hours ago." etc.
+  };
+</script>
+
+<!-- done customizing labels of htmlcommentbox.com -->
+
+
+</head>
+
+<body>
+  <div class="wrap">
+	<div class="header">
+      <div class="logo"><a href="index.html"><img border="0" alt="" src="images/logo_shim_full.png" style="width: 252px; height: 80px; padding-bottom: 0px; padding-top: 0px;"></a></div>
+		<div id="menu">
+		  <ul>
+			<li><a href="index.html">Contact</a></li>
+			<li><a href="realisations.html">Réalisations</a></li>
+			<li class="selected"><a href="commentaires.html">Commentaires</a></li>
+			<li><a href="fournisseurs.html">Fournisseurs</a></li>
+		  </ul>
+		</div>
+	  </div>
+
+	  <div class="home_center_content">
+		<div class="home_center_content">
+
+		  <div class="box1" id="tab">
+			<div class="center_text">
+			  <div class="big_title"><span>Vos commentaires</span></div>
+			  <p>Cette page vous est dédiée. Laissez nous donc vos commentaires et remarques sur nos réalisations en utilisant le formulaire ci-dessous !</p>
+			</div>
+			<div class="right_img"><img alt="" src="images/logo_shim.png" style="width: 300px;"></img></div>
+		  </div>
+
+		  <ul class="center_button_icons tabset">
+			<li id="icon1"> <a href="index.html" class="tab"> <img src="images/icon_shim.png" border="0" alt="" /> </a> </li>
+			<li id="icon2"> <a href="plomberie.html" class="tab"> <img src="images/icon_plombier.png" border="0"  alt=""/> </a> </li>
+			<li id="icon3"> <a href="electricite.html" class="tab"> <img src="images/icon_electricite.png" border="0" alt="" /> </a> </li>
+			<li> <a href="#tab" class="tab active"></a> </li>
+		  </ul>
+    </div>
+  </div>
+
+
+  <!--End of home_center_content-->
+  <div class="wide_content">
+    <!--div class="left_content"-->
+
+	<!-- begin htmlcommentbox.com -->
+	<div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
+	<link rel="stylesheet" type="text/css" href="http://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+	<script type="text/javascript" language="javascript" id="hcb">
+	  /*<!--*/
+			if(!window.hcb_user) {
+			  hcb_user = {};
+			}
+
+			(function() {
+			  s = document.createElement("script");
+			  s.setAttribute("type","text/javascript");
+			  s.setAttribute("src", "http://www.htmlcommentbox.com/jread?page=" + escape((window.hcb_user && hcb_user.PAGE) || (""+window.location)).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24nV/pgY.s711wiwZPjHThp/"+"&opts=16854&num=10");
+			  if (typeof s!="undefined")
+			    document.getElementsByTagName("head")[0].appendChild(s);
+			})
+			(); /*-->*/
+	</script>
+	<!-- end htmlcommentbox.com -->
+	
+      <div class="clear"></div>
+	<!--/div-->    <!--End of left_content-->
+	<a title="Annuaire pour le Référencement Google" href="http://annuaire.yagoort.org">Annuaire Webmaster</a>
+  </div>   <!--End of main_content-->
+<!--End of wrap-->
+
+<!--End of footer-->
+</body>
+</html>
